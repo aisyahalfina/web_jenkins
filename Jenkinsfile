@@ -27,6 +27,6 @@ stages {
     }
 }
 post {
-    always { echo 'Build web by ais selesai di Jenkins!' }
+    always { echo 'Build web by ais selesai di Jenkins! see u next time' }
 }
 }
