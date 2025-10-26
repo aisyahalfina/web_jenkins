@@ -2,7 +2,7 @@ pipeline {
 agent any
 environment {
     IMAGE_NAME = 'aisyahalfina/pesantren'
-    REGISTRY_CREDENTIALS = 'dockerhub-credentials'
+    REGISTRY_CREDENTIALS = 'newdockerhub-credentials'
 }
 stages {
     stage('Checkout') {
