@@ -10,4 +10,4 @@ services:
         environment:
             - APP_ENV=local
             - APP_DEBUG=true
-            - APP_URL=http://localhost:8054
+            - APP_URL=http://localhost:8000
