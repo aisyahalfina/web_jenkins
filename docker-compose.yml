@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+    laravel:
+        build: .
+        container_name: web_dockerjenkins
+        ports:
+            - "8054:8000"
+        volumes:
+            - .:/var/www/html
+        environment:
+            - APP_ENV=local
+            - APP_DEBUG=true
+            - APP_URL=http://localhost:8054
